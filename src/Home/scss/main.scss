@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+.container{
+    max-width: 1280px;
+    width: 100%;
+}
+body {
+  overflow-x: hidden;
+}
+img {
+  object-fit: cover;
+  vertical-align: middle;
+}
+@import './hero.scss';
+@import "./header.scss";
+@import "./section.scss";
+@import "./Tovar.scss";
+@import './help.scss';
+@import './Communecate.scss';
